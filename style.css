@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.container{
+    background-image: linear-gradient(to bottom right, #FDFCFB, #E2D1C3);
+    height: 100vh;
+    width: 100vw;
+}
+.heading{
+    height: 7rem;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+    color: white;
+    text-align: center;
+    padding-top: 3px;
+    box-sizing: border-box;
+    font-size: 4vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius:2%;
+}
+.head{
+    font-weight: bold;
+    transition: all 2s;
+    color: white;
+    margin-top: 1.5rem;
+}
+.heading:hover .head{
+    scale: 1.2;
+    cursor: pointer;
+}
+.search_bar{
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    /* background-color: yellow; */
+    padding: 2rem;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+}
+#search-input{
+    height:8vh;
+    width:40vw;
+    font-size:1.4rem;
+    padding-left: 2vw;
+    border-radius:0.5rem;
+    border:none;
+}
+#search-button{
+    margin-left: 1vw;
+    background-image: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+    color: white;
+    height:8vh;
+    width: 8vw;
+    border: none;
+   border-radius:0.5rem;
+   font-size: 2.8vh;
+}
+.photos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 3vw;
+
+}
+.box{
+    height: 35rem;
+    width: 28rem;
+}
+
+image{
+    height: 25rem;
+    width: 28rem;
+    transition: all 2s;    
+}
+.image:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    scale: 1.01;
+
+}
+img{
+    height:25rem;
+    width:100%;
+   
+}
+
+.text{
+    text-align: center;
+    font-size:3.3vh;
+    color: black;
+    margin-top: 2vw;
+    font-weight: 500;
+}
+.btn{
+    height: 7rem;
+    width: 100%;
+    /* background-color: brown; */
+    /* text-align: center; */
+}
+#show-more-image{
+    height: 4.5rem;
+    width: 12rem;
+    background-image: linear-gradient(to bottom right, #FF3E9D, #0E1F40);
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+   /* margin-left: 50px; */ 
+   margin: auto;
+   margin-top: 3vh;
+   display: none;
+}
